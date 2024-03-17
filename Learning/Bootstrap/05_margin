@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/base.css">
+  <style>
+     body{
+      background:aliceblue;
+    }
+    .row{
+      background-color:  darkslategray;
+      margin-bottom: 10px;
+    }
+    .row div{
+      background-color: cornflowerblue;
+      color:white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Margin in Bootstrap</h2>
+    <div class="row">
+      <div class="col-6">Without Margin</div>
+      <div class="col-4">Sample</div>
+    </div>
+
+    <div class="row">
+      <div class="col-6 m-3">Margin M-3</div>
+      <div class="col-4">Sample</div>
+    </div>
+
+    <div class="row">
+      <div class="col-6 mt-3">Margin-top-3</div>
+      <div class="col-4">Sample</div>
+    </div>
+
+    <div class="row">
+      <div class="col-6 mb-3">Margin-Bottom-3</div>
+      <div class="col-4">Sample</div>
+    </div>
+
+    <div class="row">
+      <div class="col-6 ms-3">Margin-start-3</div>
+      <div class="col-4">Sample</div>
+    </div>
+    <div class="row">
+      <div class="col-6 me-3">Margin-end-3</div>
+      <div class="col-4">Sample</div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-6 mx-3">Margin-x-3</div>
+      <div class="col-4">Sample</div>
+    </div>
+
+    <div class="row">
+      <div class="col-6 my-3">Margin-y-3</div>
+      <div class="col-4">Sample</div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-6 m-lg-5 m-2">Margin</div>
+      <div class="col-4">Sample</div>
+    </div>
+
+
+
+
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!--
+  m-> Start,Top,End,Bottom  (0-5)
+  mt-2
+  ms
+  me
+  mb
+  
+  mx
+  my
+
+  m-*-5  *XXL XL LG MD SM
+
+  0 = 0px
+  1 = 16px * 0.25 => 4px
+  2 = 16px * 0.5  => 8px
+  3 = 16px * 1    => 16px
+  4 = 16px * 1.5  => 24px
+  5 = 16px * 3    => 48px
+
+
+  In Bootstrap 5, margin classes are used to control the spacing and layout of elements. Margin classes allow you to add or remove margin space around elements in your HTML markup, which helps you achieve proper spacing and alignment in your web design. Margin classes in Bootstrap 5 are part of the built-in spacing system, which provides a consistent and responsive way to manage the space between elements.
+
+Bootstrap 5 provides margin classes with various predefined values, allowing you to apply margin space in different directions (top, bottom, left, right) and at different breakpoints (e.g., small, medium, large, extra-large) depending on your design requirements. Margin classes in Bootstrap 5 are typically used in conjunction with other Bootstrap utility classes to create responsive and well-organized layouts.
+
+
+Margin classes in Bootstrap 5 follow a specific naming convention, which consists of two parts: m for margin, followed by the direction (t for top, b for bottom, l for left, r for right), and an optional suffix for breakpoint size (-sm, -md, -lg, -xl) to specify the desired margin space at different screen sizes. The available margin classes in Bootstrap 5 are:
+
+m-{direction}: Applies margin space in the specified direction (e.g., m-t for top margin, m-b for bottom margin, m-l for left margin, m-r for right margin).
+m-{direction}-{breakpoint}: Applies margin space in the specified direction at the specified breakpoint size (e.g., m-t-md for top margin at medium breakpoint, m-b-lg for bottom margin at large breakpoint).
+m-{direction}-auto: Applies auto margin space in the specified direction, which is often used to center elements horizontally or vertically.
+Note that margin classes in Bootstrap 5 should be used responsibly to ensure a balanced and visually appealing design, and it's recommended to follow the Bootstrap documentation and best practices for proper usage.
+
+-->

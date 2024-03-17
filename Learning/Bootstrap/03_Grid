@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/base.css">
+  <style>
+    .container{
+      background-color: grey;
+      padding: 10px;
+    }
+    .row{
+      background-color: rgb(131, 181, 225);
+      padding: 10px;
+    }
+    .col,
+    .col-8,
+    .col-6,
+    .col-4,
+    .col-md-8,
+    .col-md-4
+    {
+      background-color: pink;
+      padding: 20px;
+      border:1px solid red;
+    }
+  </style>
+
+</head>
+<body>
+  
+  <div class="container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col-8"></div>
+        <div class="col-4"></div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-6"></div>
+        <div class="col"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8"></div>
+        <div class="col-md-4"></div>
+      </div>
+
+      <div class="row
+      row-cols-xxl-6
+      row-cols-xl-5
+      row-cols-lg-4
+      row-cols-md-4
+      row-cols-sm-2
+      row-cols-xs-1
+      ">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+     
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
+
+<!--
+    Notes:
+    
+Grid in Bootstrap
+The grid system in Bootstrap 5 is a powerful and flexible layout system that allows developers to create responsive and fluid grids for web pages or applications. It is based on a 12-column grid system that can be easily customized to create various column layouts depending on the screen size or device.
+
+Here are some key features of the grid system in Bootstrap 5:
+
+Responsive Design: The grid system in Bootstrap 5 is designed to be responsive, meaning that the layout automatically adjusts to fit different screen sizes, from large desktop screens to small mobile screens. This is achieved by using CSS media queries and predefined classes that specify the behavior of columns at different breakpoints.
+12-Column Grid: The grid system is based on a 12-column layout, which provides a flexible and modular structure for creating complex layouts. Columns can be combined to create different column widths, such as one-third, half, two-thirds, etc., to create custom layouts that suit the needs of the project.
+Container Element: The grid system in Bootstrap 5 is contained within a parent element called a container. Containers provide padding and center the grid on the page. Bootstrap 5 introduces two types of containers: .container and .container-fluid . The .container class provides a fixed-width container, while the .container-fluid class creates a full-width container that spans the entire width of the viewport.
+Column Classes: Bootstrap 5 uses predefined classes to define the width of columns. Column classes are denoted by numbers ranging from col-1 to col-12 , where the number represents the number of columns a particular element should span. For example, col-6 would create a column that spans 6 out of the 12 columns, or 50% width.
+Offset and Nesting: Bootstrap 5 also provides classes for offsetting columns and nesting columns within other columns. Offset classes allow you to create gaps between columns, while nesting allows you to create more complex layouts with multiple levels of columns within columns.
+Flexbox: Bootstrap 5 grid system is built using the CSS Flexbox layout, which provides powerful and flexible options for creating responsive grids with less code and more control over the layout.

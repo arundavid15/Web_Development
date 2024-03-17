@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/base.css">
+  <style>
+   
+    body{
+      background:aliceblue;
+    }
+
+    .row{
+      background-color:  darkslategray;
+      margin-bottom: 10px;
+    }
+    .row div{
+      background-color: cornflowerblue;
+      color:white;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div class="container">
+      <h2>Padding in Bootstrap</h2>
+      <div class="row">
+        <div class="col-6">Without Padding</div>
+        <div class="col-4">Sample</div>
+      </div>
+
+      <div class="row">
+        <div class="col-6 p-3">Padding P-3</div>
+        <div class="col-4">Sample</div>
+      </div>
+      <div class="row">
+        <div class="col-6 pt-3">Padding Pt-3</div>
+        <div class="col-4">Sample</div>
+      </div>
+
+      <div class="row">
+        <div class="col-6 pb-3">Padding Pb-3</div>
+        <div class="col-4">Sample</div>
+      </div>
+  
+      <div class="row">
+        <div class="col-6 ps-3">Padding Ps-3</div>
+        <div class="col-4">Sample</div>
+      </div>
+
+      <div class="row">
+        <div class="col-6 pe-3">Padding Pe-3</div>
+        <div class="col-4">Sample</div>
+      </div>
+
+      <div class="row">
+        <div class="col-6 px-3">Padding Px-3</div>
+        <div class="col-4">Sample</div>
+      </div>
+      <div class="row">
+        <div class="col-6 py-3">Padding Px-3</div>
+        <div class="col-4">Sample</div>
+      </div>
+
+      
+
+    <div class="row">
+      <div class="col-6 p-lg-5 p-2">Padding</div>
+      <div class="col-4">Sample</div>
+    </div>
+
+
+  
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!--
+In Bootstrap, padding classes are used to control the spacing around elements, providing consistent and responsive padding for web page layouts. Padding is the space between the content of an element and its border. Bootstrap provides a set of predefined padding utility classes that can be applied to various HTML elements to easily add padding in a consistent manner across the website.
+
+Padding classes in Bootstrap are typically applied using the p-{size} class, where {size} represents a number from 0 to 5, indicating the size of the padding. The available padding sizes in Bootstrap are:
+
+p-0: No padding (0)
+p-1: Extra small padding (0.25rem or 4 pixels)
+p-2: Small padding (0.5rem or 8 pixels)
+p-3: Medium padding (1rem or 16 pixels)
+p-4: Large padding (1.5rem or 24 pixels)
+p-5: Extra large padding (3rem or 48 pixels)
+In addition to the numerical padding classes, Bootstrap also provides directional padding classes that allow you to specify padding for specific sides of an element. These classes include:
+
+pt-{size}: Padding top
+pb-{size}: Padding bottom
+pl-{size}: Padding left
+pr-{size}: Padding right
+px-{size}: Padding left and right
+py-{size}: Padding top and bottom
+Padding classes in Bootstrap are useful for creating consistent spacing between elements, aligning content within containers, and achieving desired layouts in web pages. They are an important part of Bootstrap's responsive design system, allowing for easy control over spacing in different viewport sizes.
+
+
+  --->

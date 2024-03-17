@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun D</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Arun Portfolio</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Page 1</a></li>
+              <li><a href="#">Page 2</a></li>
+              <li><a href="#">Page 3</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="fa fa-user"></span> Sign Up</a></li>
+              <li><a href="#"><span class="fa fa-sign-in"></span> Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+            <div class="row" style="margin-top: 70px;">
+                <div class="md-col-12">
+                    <h4><i class="fa fa-user">User Login</i></h4>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form action="">
+                    <div class="form-group">
+                        <label for="email" class="class-control">User Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="class-control">Password</label>
+                        <input type="text" class="form-control" placeholder="Enter Password">
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox">Remember Me</input>
+                    </div>
+                    
+                    <button class="btn btn-success">Login</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

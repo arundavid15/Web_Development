@@ -1,0 +1,58 @@
+<!-- 
+Notes
+    In Bootstrap 5, there are six predefined breakpoints that are based on common device screen sizes, which are as follows:
+
+Extra Small (xs): This breakpoint is for screens with a maximum width of 575.98 pixels. It is typically used for smartphones and other small mobile devices.
+Small (sm): This breakpoint is for screens with a width of 576 pixels or larger. It is often used for small tablets and larger smartphones.
+Medium (md): This breakpoint is for screens with a width of 768 pixels or larger. It is commonly used for tablets and larger devices.
+Large (lg): This breakpoint is for screens with a width of 992 pixels or larger. It is often used for desktops and larger screens.
+Extra Large (xl): This breakpoint is for screens with a width of 1200 pixels or larger. It is commonly used for larger desktop screens.
+Extra Extra Large (xxl): This breakpoint is for screens with a width of 1400 pixels or larger. It is used for extra large screens.
+
+
+css/base.css
+body{
+  margin-top: 70px;
+}
+
+body::before{
+  content: 'XS';
+  color:orangered;
+  font-size: 30px;
+  position: fixed;
+  font-weight: bold;
+  top: 10px;
+  left: 10px;
+}
+
+@media (min-width: 576px){
+  body::before{
+    content: 'SM';
+  }
+}
+
+
+@media (min-width: 768px){
+  body::before{
+    content: 'MD';
+  }
+}
+
+@media (min-width: 992px){
+  body::before{
+    content: 'LG';
+  }
+}
+
+@media (min-width: 1200px){
+  body::before{
+    content: 'XL';
+  }
+}
+@media (min-width: 1400px){
+  body::before{
+    content: 'XXL';
+  }
+}
+
+ -->
